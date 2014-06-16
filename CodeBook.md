@@ -103,7 +103,6 @@ trainData<-cbind(trainData,trainData_act)
 trainData<-cbind(trainData,trainData_sub)
 bigData<-rbind(testData,trainData)
 ```
-
 #### Extract only the measurements on the mean and standard deviation for each measurement
 
 `mean()` and `sd()` are used against `bigData` via `sapply()` to extract the requested measurements.
